@@ -1,2 +1,2 @@
 # aioprometheus-summary
-Aioprometheus summary with quantiles
+Aioprometheus summary with quantiles over configurable sliding time window
