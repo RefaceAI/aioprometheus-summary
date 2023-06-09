@@ -1,0 +1,2 @@
+aioprometheus>=21.9.0
+quantile-estimator>=0.1.0
