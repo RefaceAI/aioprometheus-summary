@@ -16,6 +16,7 @@ setuptools.setup(
     author_email="github-support@reface.ai",
     description="Aioprometheus summary with quantiles over configurable sliding time window",
     long_description=readfile("README.md"),
+    long_description_content_type="text/markdown",
     license="Apache License 2.0",
     url="https://github.com/RefaceAI/aioprometheus-summary",
     packages=["aioprometheus_summary"],
