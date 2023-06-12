@@ -3,7 +3,7 @@ Aioprometheus summary with quantiles over configurable sliding time window
 
 ## Installation
 ```
-pip install aioprometheus-summary==0.0.2
+pip install aioprometheus-summary==0.1.0
 ```
 
 This package can be found on [PyPI](https://pypi.org/project/aioprometheus-summary/).
