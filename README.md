@@ -32,7 +32,7 @@ s.observe({"method": "POST", "endpoint": "/login"}, 3.4)
 ### With custom quantiles and precisions
 
 By default, metrics are observed for next quantile-precision pairs
-`((0.50, 0.05), (0.90, 0.01), (0.99, 0.001))` 
+`((0.50, 0.05), (0.90, 0.01), (0.99, 0.001))`
 but you can provide your own value when creating the metric.
 
 ```python
@@ -47,7 +47,7 @@ s.observe({}, 4.7)
 
 ### With custom time window settings
 
-Typically, you don't want to have a Summary representing the entire runtime of the application, 
+Typically, you don't want to have a Summary representing the entire runtime of the application,
 but you want to look at a reasonable time interval. Summary metrics implement a configurable sliding time window.
 
 The default is a time window of 10 minutes and 5 age buckets, i.e. the time window is 10 minutes wide, and
